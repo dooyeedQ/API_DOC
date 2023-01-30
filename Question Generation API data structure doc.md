@@ -33,6 +33,14 @@ http://wangserver.ddns.net:7233/api/question-generation
             "question":[{"question": "What's the right answer?",
                         "answer": "this is right answer",
                         "options": ["option one.",  "option two.", "option three."]}]           }
+    Example of multiple-choice qestion generation:
+    * sentence： Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.
+    * question：What is leukemia caused by?
+    * answer: rapid production of abnormal white blood cells
+    * distractor: 
+     rapid reorganization of healthy white blood cells, 
+     rapid expansion of immature neurons, 
+     rapid production of useless tissues
               
     # cloze: 
             {"type": "cloze",
@@ -75,7 +83,7 @@ http://wangserver.ddns.net:7233/api/question-generation
     * sentence： Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.
     * question：Virchow was the first scientist to discover that leukiemia is caused by rapid production of ______.
     * answer: abnormal white blood cells
-    * distractor: "healthy white blood cells", "immature neurons", "useless tissues"
+    * distractor: healthy white blood cells,  immature neurons,  useless tissues
      
                     
     # five of seven(choose 5)
