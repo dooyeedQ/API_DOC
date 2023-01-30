@@ -1,3 +1,5 @@
+# API url:
+http://wangserver.ddns.net:7233/api/question-generation
 
 # Post data structure:
 
@@ -13,12 +15,11 @@ data={
 
 ```javascript
 result={
-      'key': a str if timestamp of this post request, 
+      'key': a str type timestamp of this post request, 
       'data': a list of questions, each element is a dict, each type of question's structrue is expained below
       }
 ```
-# API url:
-http://wangserver.ddns.net:7233/api/question-generation
+
 # All question types
 ```javascript-
 ['multiple-choice','cloze'，'cloze-five-of-seven'，'fill-in-the-blank']
@@ -33,7 +34,7 @@ http://wangserver.ddns.net:7233/api/question-generation
             "question":[{"question": "What's the right answer?",
                         "answer": "this is right answer",
                         "options": ["option one.",  "option two.", "option three."]}]           }
-    Example of multiple-choice qestion:
+    Example of multiple-choice question:
     * Sentence： Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.
     * Question：What is leukemia caused by?
     * Answer: rapid production of abnormal white blood cells
