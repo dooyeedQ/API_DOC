@@ -21,7 +21,7 @@ result={
 http://wangserver.ddns.net:7233/api/question-generation
 # All question types
 ```javascript-
-['multiple-choice','cloze'，'cloze-five-of-seven'，'fill-in-the-blank'，'true-false'，'summarize' ]
+['multiple-choice','cloze'，'cloze-five-of-seven'，'fill-in-the-blank']
 
 ```
 # Returned data structure: 
@@ -70,6 +70,39 @@ http://wangserver.ddns.net:7233/api/question-generation
                         </span>
                     </p>"
             }
+    
+    # Example post request:
+
+
+```javascript
+data={
+      'key': any timestamp string, 
+      'text':"<p>Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.</p>",
+      'question_type': ['cloze'] }
+Each sentence used for generate cloze question should be labled with "<p></p>" tag
+```
+
+# Returned data structure:
+
+
+```javascript
+result={
+      'key': a timestamp string, 
+      'data': a list of questions, each element is a dict.
+      }
+```
+
+# Data structure of cloze question
+
+      {"type": "cloze",
+       "question":[{"answer":"abnormal white blood cells",
+                    "options":["healthy white blood cells", "immature neurons", "useless tissues"],
+                    "question_id": "0"}
+                    ],
+       "html": "<p>
+                  Virchow was the first scientist to discover that leukiemia is caused by rapid production of <span question_id="0">abnormal white blood cells</span>.
+               </p>"
+      }
                     
     # five of seven(choose 5)
            {"type": "cloze-five-of-seven",
@@ -154,11 +187,37 @@ http://wangserver.ddns.net:7233/api/question-generation
                     </p>"
             }
             
-    
-    # true-false:
-        {"type": "true-false",
-         "question":[{"question": "he is a good man.",
-         "answer": True]}}
-    
-    # summarize:
-        summarize question will not return any thing but need to generate the question.
+    URL: http://wangserver.ddns.net:8633/api/question-generation
+
+# Example post request:
+
+
+```javascript
+data={
+      'key': any timestamp string, 
+      'text':"<p>Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.</p>",
+      'question_type': ['cloze'] }
+Each sentence used for generate cloze question should be labled with "<p></p>" tag
+```
+
+# Returned data structure:
+
+
+```javascript
+result={
+      'key': a timestamp string, 
+      'data': a list of questions, each element is a dict.
+      }
+```
+
+# Data structure of cloze question
+
+      {"type": "cloze",
+       "question":[{"answer":"abnormal white blood cells",
+                    "options":["healthy white blood cells", "immature neurons", "useless tissues"],
+                    "question_id": "0"}
+                    ],
+       "html": "<p>
+                  Virchow was the first scientist to discover that leukiemia is caused by rapid production of <span question_id="0">abnormal white blood cells</span>.
+               </p>"
+      }
