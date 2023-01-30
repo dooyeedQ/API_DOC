@@ -37,7 +37,7 @@ http://wangserver.ddns.net:7233/api/question-generation
     * sentence： Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.
     * question：What is leukemia caused by?
     * answer: rapid production of abnormal white blood cells
-    * distractor: 
+    * distractors: 
       1. rapid reorganization of healthy white blood cells, 
       2. rapid expansion of immature neurons, 
       3. rapid production of useless tissues
@@ -83,10 +83,10 @@ http://wangserver.ddns.net:7233/api/question-generation
     * sentence： Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.
     * question：Virchow was the first scientist to discover that leukiemia is caused by rapid production of ______.
     * answer: abnormal white blood cells
-    * distractor: 
-    1. healthy white blood cells,  
-    2. immature neurons 
-    3. useless tissues
+    * distractors: 
+      1. healthy white blood cells,  
+      2. immature neurons 
+      3. useless tissues
      
                     
     # five of seven(choose 5)
