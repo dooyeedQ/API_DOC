@@ -72,7 +72,7 @@ http://wangserver.ddns.net:7233/api/question-generation
             }
     
     # Example of cloze question generation:
-    sent data to api:
+    * sent data to api
       ```javascript
       data={
             'key': any timestamp string, 
@@ -80,15 +80,15 @@ http://wangserver.ddns.net:7233/api/question-generation
             'question_type': ['cloze'] }
       ```
     result:
-    {"type": "cloze",
-       "question":[{"answer":"abnormal white blood cells",
-                    "options":["healthy white blood cells", "immature neurons", "useless tissues"],
-                    "question_id": "0"}
-                    ],
-       "html": "<p>
-                  Virchow was the first scientist to discover that leukiemia is caused by rapid production of <span question_id="0">abnormal white blood cells</span>.
-               </p>"
-      }
+          {"type": "cloze",
+             "question":[{"answer":"abnormal white blood cells",
+                          "options":["healthy white blood cells", "immature neurons", "useless tissues"],
+                          "question_id": "0"}
+                          ],
+             "html": "<p>
+                        Virchow was the first scientist to discover that leukiemia is caused by rapid production of <span question_id="0">abnormal white blood cells</span>.
+                     </p>"
+            }
     
     
 
