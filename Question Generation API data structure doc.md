@@ -38,9 +38,9 @@ http://wangserver.ddns.net:7233/api/question-generation
     * Question：What is leukemia caused by?
     * Answer: rapid production of abnormal white blood cells
     * Distractors: 
-      1. rapid reorganization of healthy white blood cells
-      2. rapid expansion of immature neurons
-      3. rapid production of useless tissues
+      - 1. rapid reorganization of healthy white blood cells
+      - 2. rapid expansion of immature neurons
+      - 3. rapid production of useless tissues
               
     # cloze: 
             {"type": "cloze",
@@ -84,9 +84,9 @@ http://wangserver.ddns.net:7233/api/question-generation
     * Question：Virchow was the first scientist to discover that leukiemia is caused by rapid production of ______.
     * Answer: abnormal white blood cells
     * Distractors: 
-      1. healthy white blood cells
-      2. immature neurons 
-      3. useless tissues
+      - 1. healthy white blood cells
+      - 2. immature neurons 
+      - 3. useless tissues
      
                     
     # five of seven(choose 5)
@@ -140,8 +140,8 @@ http://wangserver.ddns.net:7233/api/question-generation
 The first microscopes powerful enough to distinguish blood cells were invented in the 1600s. By the early 1800s, scientists were able to distinguish white          blood cells from red blood cells. However, they didn't yet understand white blood cells' role in the immune system, helping to fight infection and other diseases. For that matter, they didn't understand there was such a thing as the immune system. Instead, they thought that these strange cells might be mucous or pus.In the 1840s and 1850s, several doctors wrote case studies of people who had swollen abdomens, fevers, weight loss, and weakness — symptoms that we now associate with leukemia. While performing blood tests during autopsies, the doctors noticed that these people had abnormal amounts of white blood cells — so much so that they described the disease as "white blood" or "leukemia." The name "leukemia" was derived from the Greek words "leukos," which means "white," and "haima," which means "blood." Doctors debated the cause of this abnormal level of white blood cells. In 1856, Rudolf Virchow, a German physician and pioneer in cellular pathology, proposed that the cause of leukemia would be found in the organs that produced the white blood cells — especially the spleen. Other doctors found that people with leukemia had bone marrow that was yellowish-green, instead of the normal, healthy red. Leukemia wasn't just a disease of the organs: The bones were involved as well. This destruction of the bone marrow accounted for the anemia (lack of red blood cells) that went along with leukemia.
 
     * Question：
-The first microscopes powerful enough to distinguish blood cells were invented in the 1600s. _____ 1 _____ However, they didn't yet understand white blood cells' role in the immune system, helping to fight infection and other diseases.  _____ 2 _____  Instead, they thought that these strange cells might be muc
-or pus. _____ 3 _____ While performing blood tests during autopsies, the doctors noticed that these people had abnormal amounts of white blood cells — so much so that they described the disease as "white blood" or "leukemia." The name "leukemia" was derived from the Greek words "leukos," which means "white," and "haima," which means "blood."  _____ 4 _____ In 1856, Rudolf Virchow, a German physician and pioneer in cellular pathology, proposed that the cause of leukemia would be found in the organs that produced the white blood cells — especially the spleen. Other doctors found that people with leukemia had bone marrow that was yellowish-green, instead of the normal, healthy red. _____ 5 _____ This destruction of the bone marrow accounted for the anemia (lack of red blood cells) that went along with leukemia
+The first microscopes powerful enough to distinguish blood cells were invented in the 1600s. _____ a _____ However, they didn't yet understand white blood cells' role in the immune system, helping to fight infection and other diseases.  _____ b _____  Instead, they thought that these strange cells might be muc
+or pus. _____ c _____ While performing blood tests during autopsies, the doctors noticed that these people had abnormal amounts of white blood cells — so much so that they described the disease as "white blood" or "leukemia." The name "leukemia" was derived from the Greek words "leukos," which means "white," and "haima," which means "blood."  _____ d _____ In 1856, Rudolf Virchow, a German physician and pioneer in cellular pathology, proposed that the cause of leukemia would be found in the organs that produced the white blood cells — especially the spleen. Other doctors found that people with leukemia had bone marrow that was yellowish-green, instead of the normal, healthy red. _____ e _____ This destruction of the bone marrow accounted for the anemia (lack of red blood cells) that went along with leukemia
     * Answers:
       - 1. By the early 1800s, scientists were able to distinguish white blood cells from red blood cells.
       - 2. For that matter, they didn't understand there was such a thing as the immune system.
