@@ -38,9 +38,9 @@ http://wangserver.ddns.net:7233/api/question-generation
     * question：What is leukemia caused by?
     * answer: rapid production of abnormal white blood cells
     * distractor: 
-     rapid reorganization of healthy white blood cells, 
-     rapid expansion of immature neurons, 
-     rapid production of useless tissues
+      # rapid reorganization of healthy white blood cells, 
+      # rapid expansion of immature neurons, 
+      # rapid production of useless tissues
               
     # cloze: 
             {"type": "cloze",
