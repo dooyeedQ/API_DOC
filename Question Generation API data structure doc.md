@@ -79,7 +79,7 @@ http://wangserver.ddns.net:7233/api/question-generation
             'text':"<p>Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.</p>",
             'question_type': ['cloze'] }
       ```
-   # Data structure of cloze question
+    * Data structure of cloze question
 
       {"type": "cloze",
        "question":[{"answer":"abnormal white blood cells",
