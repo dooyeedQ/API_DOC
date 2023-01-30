@@ -39,9 +39,9 @@ result={
     * Question：What is leukemia caused by?
     * Answer: rapid production of abnormal white blood cells
     * Distractors: 
-      - 1. rapid reorganization of healthy white blood cells
-      - 2. rapid expansion of immature neurons
-      - 3. rapid production of useless tissues
+      - rapid reorganization of healthy white blood cells
+      - rapid expansion of immature neurons
+      - rapid production of useless tissues
               
     # cloze: 
             {"type": "cloze",
@@ -85,9 +85,9 @@ result={
     * Question：Virchow was the first scientist to discover that leukiemia is caused by rapid production of ______.
     * Answer: abnormal white blood cells
     * Distractors: 
-      - 1. healthy white blood cells
-      - 2. immature neurons 
-      - 3. useless tissues
+      - healthy white blood cells
+      - immature neurons 
+      - useless tissues
      
                     
     # five of seven(choose 5)
