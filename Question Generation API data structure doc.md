@@ -71,7 +71,7 @@ http://wangserver.ddns.net:7233/api/question-generation
                     </p>"
             }
     
-    # Example of cloze question generation:
+    Example of cloze question generation:
     * Post data
       ```javascript
       data={
