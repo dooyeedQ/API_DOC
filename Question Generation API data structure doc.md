@@ -72,25 +72,11 @@ http://wangserver.ddns.net:7233/api/question-generation
             }
     
     Example of cloze question generation:
-    * Post data
-      ```javascript
-      data={
-            'key': any timestamp string, 
-            'text':"<p>Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.</p>",
-            'question_type': ['cloze'] }
-      ```
-    * Result
-      ```javascript
-      {"type": "cloze",
-       "question":[{"answer":"abnormal white blood cells",
-                    "options":["healthy white blood cells", "immature neurons", "useless tissues"],
-                    "question_id": "0"}
-                    ],
-       "html": "<p>
-                  Virchow was the first scientist to discover that leukiemia is caused by rapid production of <span question_id="0">abnormal white blood cells</span>.
-               </p>"
-      }
-      ```
+    * sentence： Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.
+    * question：Virchow was the first scientist to discover that leukiemia is caused by rapid production of ______.
+    * answer: abnormal white blood cells
+    * distractor: "healthy white blood cells", "immature neurons", "useless tissues"
+     
                     
     # five of seven(choose 5)
            {"type": "cloze-five-of-seven",
