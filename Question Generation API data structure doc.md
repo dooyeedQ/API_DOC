@@ -79,7 +79,7 @@ http://wangserver.ddns.net:7233/api/question-generation
             'text':"<p>Virchow was the first scientist to discover that leukiemia is caused by rapid production of abnormal white blood cells.</p>",
             'question_type': ['cloze'] }
       ```
-    * result:
+    * result
           {"type": "cloze",
              "question":[{"answer":"abnormal white blood cells",
                           "options":["healthy white blood cells", "immature neurons", "useless tissues"],
