@@ -143,11 +143,11 @@ The first microscopes powerful enough to distinguish blood cells were invented i
 The first microscopes powerful enough to distinguish blood cells were invented in the 1600s. _____ 1 _____ However, they didn't yet understand white blood cells' role in the immune system, helping to fight infection and other diseases.  _____ 2 _____  Instead, they thought that these strange cells might be muc
 or pus. _____ 3 _____ While performing blood tests during autopsies, the doctors noticed that these people had abnormal amounts of white blood cells — so much so that they described the disease as "white blood" or "leukemia." The name "leukemia" was derived from the Greek words "leukos," which means "white," and "haima," which means "blood."  _____ 4 _____ In 1856, Rudolf Virchow, a German physician and pioneer in cellular pathology, proposed that the cause of leukemia would be found in the organs that produced the white blood cells — especially the spleen. Other doctors found that people with leukemia had bone marrow that was yellowish-green, instead of the normal, healthy red. _____ 5 _____ This destruction of the bone marrow accounted for the anemia (lack of red blood cells) that went along with leukemia
     * Answers:
-      1. By the early 1800s, scientists were able to distinguish white blood cells from red blood cells.
-      1. For that matter, they didn't understand there was such a thing as the immune system.
-      1. In the 1840s and 1850s, several doctors wrote case studies of people who had swollen abdomens, fevers, weight loss, and weakness — symptoms that we now associate with leukemia.
-      1. Doctors debated the cause of this abnormal level of white blood cells.
-      1. Leukemia wasn't just a disease of the organs: The bones were involved as well.
+      - 1. By the early 1800s, scientists were able to distinguish white blood cells from red blood cells.
+      - 2. For that matter, they didn't understand there was such a thing as the immune system.
+      - 3. In the 1840s and 1850s, several doctors wrote case studies of people who had swollen abdomens, fevers, weight loss, and weakness — symptoms that we now associate with leukemia.
+      - 4. Doctors debated the cause of this abnormal level of white blood cells.
+      - 5. Leukemia wasn't just a disease of the organs: The bones were involved as well.
     * Distractors: 
       - When a man's blood clot forms, it goes into the lungs.
       - Leukemia wasn't just a disease of the organs: The bones were involved as well.
